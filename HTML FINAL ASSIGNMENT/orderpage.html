@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Market</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="images/fav-icon.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="logo">E <span class="hub">Market</span></div>
+    <header>
+        
+        <nav>
+            <ul class="nav">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="aboutus.html">About</a></li>
+              <li class="dropdown">
+                <a href="#">Products</a>
+                <ul class="dropdown-menu">
+                  <li><a href="dairyproducts.html">Dairy</a></li>
+                  <li><a href="vegetables.html">Vegetables</a></li>
+                  <li><a href="cosmetics.html">Cosmetics</a></li>
+                </ul>
+              </li>
+              <li><a href="orderpage.html">Order </a></li>
+              <li><a href="loyalty-registeration.html">Loyalty</a></li>
+            </ul>
+          </nav>
+    </header>
+    <br>
+    
+    <div class="order-form">
+        <h2>Order Form</h2>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="product">Product:</label>
+            <select id="product" name="product" required>
+                <option value="">Select Product</option>
+                <option value="cosmetics">Cosmetics</option>
+                <option value="vegetables">Vegetables</option>
+                <option value="dairyproducts">Dairy Products</option>
+            </select>
+            <p><span>E </span> Market >>></p>
+        </form>
+    </div>
+
+    <div class="main">
+
+        <div class="product-list">
+            <div class="product">
+                <img src="images/patato.png" style="width: 100%; height:220px;" alt="Product 1">
+                <h2>Potato 1kg</h2>
+                
+                <p>490 LKR</p>
+                <input type="number" value="1" min="1">
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="images DC/Cosmetic/face mask-Photoroom.png-Photoroom.png" style="width: 100%; height:220px;" alt="Product 1">
+                <h2>Face mask 10pcs</h2>
+            
+                <p>500 LKR</p>
+                <input type="number" value="1" min="1">
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="images/apple.png" style="width: 100%; height:220px;" alt="Product 1">
+                <h2>Apple 1kg</h2>
+            
+                <p>600 LKR</p>
+                <input type="number" value="1" min="1">
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="images DC/vege/Fresh-broccoli-vegetable-on-transparent-background-PNG.png" style="width: 100%; height:220px;" alt="Product 1">
+                <h2>Broccoli 500g</h2>
+            
+                <p>390 LKR</p>
+                <input type="number" value="1" min="1">
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        
+        </div><hr>
+
+    <footer>
+        <div class="footer-container">
+            <!--logo-container------>
+            <div class="footer-logo">
+                <a href="#">E <span>Market</span></a>
+                <!--social----->
+            </div>
+
+            <!--links------------------------->
+            <div class="footer-links">
+                <strong>Product</strong>
+                <ul>
+                    <li><a href="cosmetics.html">cosmetics</a></li>
+                    <li><a href="vegetables.html">vegetables</a></li>
+                    <li><a href="dairyproducts.html">dairyproducts</a></li>
+                  
+                </ul>
+            </div>
+            <!--links------------------------->
+            <div class="footer-links">
+                <strong>Category</strong>
+                <ul>
+                    <li><a href="#">Beauty</a></li>
+                    <li><a href="#">Meats</a></li>
+                    <li><a href="#">Kids</a></li>
+                    <li><a href="#">Clothes</a></li>
+                </ul>
+            </div>
+            <!--links-------------------------->
+            <div class="footer-links">
+                <strong>Contact</strong>
+                <ul>
+                    <li><a href="#">Phone : +123456789</a></li>
+                    <li><a href="#">Email : Example@gmail.com</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
