@@ -1,0 +1,40 @@
+{
+    "name": "E-Market",
+    "short_name": "E-Market",
+    "description": "A PWA for '' E-Market",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#000000",
+    "orientation":"portrait-primary",
+    "icons":
+    [
+        {
+        "src":"icons/favicon-16x16.png",
+        "type":"image/png",
+        "sizes":"16x16"
+        },
+        {
+        "src":"icons/favicon-32x32.png",
+        "type":"image/png",
+        "sizes":"32x32"
+        },
+        {
+        "src":"icons/mstile-150x150.png",
+        "type":"image/png",
+        "sizes":"150x150"
+        },
+        {
+        "src":"icons/android-chrome-192x192.png",
+        "type":"image/png",
+        "sizes":"192x192"
+        },
+        {
+        "src":"icons/android-chrome-512x512.png",
+        "type":"image/png",
+        "sizes":"512x512"
+        }
+ 
+]
+
+}

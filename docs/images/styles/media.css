@@ -1,0 +1,113 @@
+/* Existing CSS code remains the same */
+
+/* Responsive layout adjustments */
+
+/* For screen sizes 480px and below */
+@media (max-width: 480px) {
+    .items {
+        grid-template-columns: auto;
+    }
+    .product {
+        max-width: 100%;
+    }
+    .cart-container {
+        max-width: 90%;
+    }
+    .cart-row {
+        flex-direction: column;
+    }
+    .cart-item {
+        width: 100%;
+    }
+    .cart-price {
+        width: 100%;
+        text-align: center;
+    }
+    .cart-quantity {
+        width: 100%;
+        text-align: center;
+    }
+    .cart-icon {
+        font-size: 1rem;
+    }
+    .cart-total {
+        font-size: 0.8rem;
+    }
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .social {
+        margin-top: 10px;
+    }
+}
+
+/* For screen sizes between 481px and 768px */
+@media (min-width: 481px) and (max-width: 768px) {
+    .items {
+        grid-template-columns: auto auto;
+    }
+    .product {
+        max-width: 45%;
+    }
+    .cart-container {
+        max-width: 80%;
+    }
+    .cart-row {
+        flex-direction: row;
+    }
+    .cart-item {
+        width: 40%;
+    }
+    .cart-price {
+        width: 20%;
+    }
+    .cart-quantity {
+        width: 30%;
+    }
+    .cart-icon {
+        font-size: 1.2rem;
+    }
+    .cart-total {
+        font-size: 1rem;
+    }
+    .footer-container {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
+
+/* For screen sizes between 769px and 1024px */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .items {
+        grid-template-columns: auto auto auto;
+    }
+    .product {
+        max-width: 30%;
+    }
+    .cart-container {
+        max-width: 70%;
+    }
+    .cart-row {
+        flex-direction: row;
+    }
+    .cart-item {
+        width: 30%;
+    }
+    .cart-price {
+        width: 20%;
+    }
+    .cart-quantity {
+        width: 30%;
+    }
+    .cart-icon {
+        font-size: 1.4rem;
+    }
+    .cart-total {
+        font-size: 1.2rem;
+    }
+    .footer-container {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
